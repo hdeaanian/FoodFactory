@@ -1,0 +1,91 @@
+@charset "utf-8";
+body, div, h1, h2, form, fieldset, label, aside, a {margin:0; padding:0; border:0;}
+
+body {font-size:0.75em; background: #e7e7e7; font-family:'Malgun Gothic', dotum, sans-serif;}
+a {text-decoration: none;}
+
+@font-face {
+	font-family: 'crd';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-1Thin.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'crd';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff') format('woff');
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'crd';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'crd';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'crd';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'crd';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-7ExtraBold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'crd';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'crd';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'yg-jalnan';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'TlabShin';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.3/TlabShinYBA1.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+.mbskin {position:relative; margin: 100px auto 0; border:1px solid #ddd; width:400px; background:#fff; text-align:center;}
+.mbskin h1 {margin: 60px 0 30px; font-size:2em;}
+.mbskin:before {content:""; position:absolute; z-index:-1; top:2%; bottom:0; left: 10px; right:10px; box-shadow: 0 0 20px rgb(0, 0, 0.8); border-radius:100px / 10px;}
+
+.mbskin form fieldset#login_fs {padding: 0 50px;}
+.mbskin form fieldset#login_fs legend {position:absolute; margin:0; padding:0; font-size:0; line-height:0; text-indent: -9999em; overflow:hidden;}
+.mbskin form fieldset#login_fs input#login_id { margin: 0 0 10px;}
+.mbskin form fieldset#login_fs input.frm_input {width:95%; height: 40px;}
+.mbskin form fieldset#login_fs input#login_pw {margin: 0 0 10px;}
+.mbskin form fieldset#login_fs .required {background-image:url(../img/sub4/require.png); background-repeat:no-repeat; background-position: right top; }
+textarea, .tbl_frm01 textarea, .form_01 textarea, .frm_input {border: 1px solid #ccc; background:#fff; color:#000; vertical-align:middle; border-radius: 3px; padding: 5px; }
+.mbskin form fieldset#login_fs .btn_submit {margin: 0 0 20px; width: 100%; height:45px; font-weight:bold; font-size: 1.25em; background:#253dbe; color:#fff; border:0;}
+
+.mbskin form aside#login_info {background:#f6f6f6; padding: 25px 10px; border-top:1px solid #e8e8e8; margin:40px 0 0;}
+.mbskin form aside#login_info:after {display:block; visibility:hidden; clear:both; content:"";}
+.mbskin form aside#login_info > div a {display:inline-block; width:50%; float:left; color:#000; }
+.mbskin form aside#login_info h2 {text-indent:-9999px; width:0; height:0;}
+.mbskin form aside#login_info div#alogin_password_lost {border-right: 1px solid #ddd;}
